@@ -1,9 +1,11 @@
 <template>
-  <Tutorial />
+  <MenuLinks />
 </template>
 
 <script>
+import MenuLinks from '~/components/MenuLinks.vue';
 export default {
-  name: 'IndexPage',
+    name: "IndexPage",
+    components: { MenuLinks }
 }
 </script>
